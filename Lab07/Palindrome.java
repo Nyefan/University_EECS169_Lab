@@ -1,3 +1,15 @@
+/*--------------------------------------------------------------*
+ *  File Name: Palindrome.java                                  |
+ *  Author: Anthony Davis St. Aubin				|
+ *  KUID: 248****						|
+ *  Email Address: a162s797@ku.edu				|
+ *  Lab Number:  07                                             |
+ *  Description: An introduction to methods; requests a number	|
+ *    from the user, determines whether the input is a		|
+ *    palindrome, and outputs that determination to the terminal|
+ *  Last Changed: 26-March-2013					|
+ ---------------------------------------------------------------*/
+
 import java.util.Scanner;
 import java.lang.Math;
 
