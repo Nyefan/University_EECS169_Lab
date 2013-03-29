@@ -169,3 +169,4 @@ pip-log.txt
 
 # Mac crap
 .DS_Store
+/Lab 08/MySphere/nbproject/private/
