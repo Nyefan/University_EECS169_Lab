@@ -8,7 +8,10 @@ import java.util.Scanner;
  *  KUID: 2482383						|
  *  Email Address: a162s797@ku.edu				|
  *  Lab Number: 08						|
- *  Description: TODO - WRITE DESCRIPTION OF THE PROGRAM HERE	|
+ *  Description: Tests the Object, MySphere, in an interactive	|
+ *    way, requesting an input for MySphere's instanced		|
+ *    variable, diameter, and outputing the results of each of	|
+ *    MySphere's methods in an organized manner.		|
  *  File Created: Mar 29, 2013					|
  *  Last Changed: Mar 29, 2013					|
  ---------------------------------------------------------------*/
@@ -16,6 +19,7 @@ import java.util.Scanner;
 public class MySphereTest {
   private static Scanner keyboard01  = new Scanner(System.in);
   private MySphere myBall = new MySphere();
+
   public void main(String[] args) {
 
     //MySphere myBall = new MySphere();

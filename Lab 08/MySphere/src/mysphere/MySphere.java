@@ -1,7 +1,6 @@
 package mysphere;
 
 import static java.lang.Math.pow;
-import java.util.Scanner;
 
 /*--------------------------------------------------------------*
  *  File Name: MySphere.java					|
@@ -9,7 +8,14 @@ import java.util.Scanner;
  *  KUID: 2482383						|
  *  Email Address: a162s797@ku.edu				|
  *  Lab Number: 08						|
- *  Description: TODO - WRITE DESCRIPTION OF THE PROGRAM HERE	|
+ *  Description: Defines an Object, MySphere, that has:		|
+ *    one instanced variable:					|
+ *	double diameter;					|
+ *    four methods:					|
+ *	void setDiameter(double){;}				|
+ *	double getDiameter(){;}					|
+ *	double calculateVolume(){;}				|
+ *	double calculateSurfaceArea(){;}			|
  *  File Created: Mar 29, 2013					|
  *  Last Changed: Mar 29, 2013					|
  ---------------------------------------------------------------*/
@@ -18,10 +24,7 @@ public class MySphere {
 
   //Define the constant PI.
   private final double PI = 3.141592;
-  //The MySphere class has one instance variable, diameter;
   private double diameter;
-
-  //The MySphere class has four methods
 
   public void setDiameter(double newDiameter) {
     diameter = newDiameter;
@@ -32,11 +35,11 @@ public class MySphere {
   }
 
   public double calculateVolume() {
-    return 4/3*PI*pow(diameter,3);
+    return PI*pow(diameter,3)/6;
   }
 
   public double calculateSurfaceArea() {
-    return 4*PI*pow(diameter,2);
+    return PI*pow(diameter,2);
   }
 
 }
