@@ -42,3 +42,14 @@ public class OldMacDonald {
     );
   }
 }
+
+/**--------------------------------NOTES--------------------------------
+ * setAnimal.01
+ *              Takes an Animal as input and assigns OldMacDonald's 
+ *              properties, type and sound, based on the input Animal's
+ *              properties
+ * 
+ * sing.01
+ *              Outputs a verse of "Old MacDonald Had A Farm" with the
+ *              appropriate animal type and sound for a given instance;
+ **/
