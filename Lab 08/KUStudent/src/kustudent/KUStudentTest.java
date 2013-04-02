@@ -19,7 +19,7 @@ public class KUStudentTest {
   private static Scanner keyboard01 = new Scanner(System.in);
   private static KUStudent student = new KUStudent();
 
-  public void main(String[] args) {
+  public static void main(String[] args) {
 
     requestStudentName(); // Note[01]
     setName();            // Note[02]
