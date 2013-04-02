@@ -18,9 +18,9 @@ import java.util.Scanner;
 
 public class MySphereTest {
   private static Scanner keyboard01  = new Scanner(System.in);
-  private MySphere myBall = new MySphere();
+  private static MySphere myBall = new MySphere();
 
-  public void main(String[] args) {
+  public static void main(String[] args) {
     boolean shouldContinue;
     
     do {
@@ -35,7 +35,7 @@ public class MySphereTest {
     return keyboard01.nextDouble();
   }
 
-  private void printStats(MySphere myBall) { //Note[main.02];
+  private static void printStats(MySphere myBall) { //Note[main.02];
     System.out.println("The diameter of the ball is " + myBall.getDiameter());
     System.out.printf("The volume is %7.2f\n", myBall.calculateVolume());
     System.out.printf("the surface area is %7.2f\n", myBall.calculateSurfaceArea());
