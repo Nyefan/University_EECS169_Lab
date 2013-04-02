@@ -21,14 +21,12 @@ public class MySphereTest {
   private MySphere myBall = new MySphere();
 
   public void main(String[] args) {
-
-    //MySphere myBall = new MySphere();
-
     boolean shouldContinue;
+    
     do {
-      myBall.setDiameter(getInput());
-      printStats(myBall);
-      shouldContinue = checkShouldLoop();
+      myBall.setDiameter(getInput());     // Note[01];
+      printStats(myBall);                 // Note[02];
+      shouldContinue = checkShouldLoop(); // Note[03];
     } while(shouldContinue == true);
   }
 
@@ -37,7 +35,7 @@ public class MySphereTest {
     return keyboard01.nextDouble();
   }
 
-  private void printStats(MySphere myBall) {
+  private void printStats(MySphere myBall) { //Note[main.02];
     System.out.println("The diameter of the ball is " + myBall.getDiameter());
     System.out.printf("The volume is %7.2f\n", myBall.calculateVolume());
     System.out.printf("the surface area is %7.2f\n", myBall.calculateSurfaceArea());
@@ -60,3 +58,21 @@ public class MySphereTest {
     }
   }
 }
+
+/**--------------------------------NOTES--------------------------------
+ * main.01
+ * 		Requests a diameter from the user and sets the myBall 
+ * 		instance of mySphere's diameter to that value;
+ * main.o2
+ * 		Prints the diameter, volume, and surface area of myBall 
+ * 		in an appropriate format;
+ * main.03
+ * 		Asks the user if they would like to continue using the 
+ * 		program and returns an appropriate boolean value;
+ * 
+ * checkShouldLoop.01
+ * 		KNOWN BUG: any input followed by a hard return will be 
+ * 		processed according to its first letter, resulting in 
+ * 		entries like "yar" and "nargles" acting as 'y' and 'n', 
+ * 		respectively
+ */
