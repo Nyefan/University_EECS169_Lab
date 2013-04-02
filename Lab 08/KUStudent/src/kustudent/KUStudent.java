@@ -38,7 +38,7 @@ public class KUStudent {
 
   public void displayInfo() {
     System.out.printf("Student: %s %s"
-	    + "\nKUID: %d"
+	    + "\nKUID: %s"
 	    + "\nDepartment: %s",
 	    stud_fname, stud_lname, stud_kuid, stud_dpt);
   }
