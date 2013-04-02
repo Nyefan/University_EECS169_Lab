@@ -35,7 +35,7 @@ public class KUStudentTest {
 
   private static void setName() { // Note[main.02];
     String fname = keyboard01.next();
-    String lname = keyboard01.next();
+    String lname = keyboard01.nextLine();
     student.set_name(fname,lname);
   }
 
@@ -45,7 +45,7 @@ public class KUStudentTest {
 
   private static void setKUInfo() { // Note[main.04];
     String kuid = keyboard01.next();
-    String dpt = keyboard01.next();
+    String dpt = keyboard01.nextLine();
     student.set_kuinfo(kuid, dpt);
   }
 }
