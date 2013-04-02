@@ -21,10 +21,10 @@ public class KUStudentTest {
 
   public void main(String[] args) {
 
-    requestStudentName();
-    setName();
-    requestKUInfo();
-    setKUInfo();
+    requestStudentName(); // Asks the user what student's fname and lname should be, specifying the format (fname lname);
+    setName();            // Takes the user's input and assigns the student's name through KUStudent's set_name method;
+    requestKUInfo();      // Asks the user what student's KUID and dpt should be, specifying the format (KUID dpt);
+    setKUInfo();          // Takes the user's input and assigns the student's KUInfo through KUStudent's set_kuinfo method;
 
     student.displayInfo();
   }
