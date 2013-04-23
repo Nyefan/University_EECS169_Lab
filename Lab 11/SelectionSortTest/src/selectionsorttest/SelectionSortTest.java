@@ -26,7 +26,7 @@ public class SelectionSortTest {
     
     private static void selectionSort(int[] arr) {
     	// Bookkeeping variables;
-        int minIndex // Index of the minimum value;
+        int minIndex; // Index of the minimum value;
         int tmp; // Temporary variable used for switching;
         int n = arr.length;
         
