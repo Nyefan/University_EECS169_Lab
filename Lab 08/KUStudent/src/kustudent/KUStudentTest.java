@@ -50,17 +50,17 @@ public class KUStudentTest {
   }
 }
 
-/**--------------------------------NOTES--------------------------------
+/**--------------------------------NOTES----------------------------------------
  * main.01
- *              Asks the user what student's fname and lname should be, 
+ *              Asks the user what student's fname and lname should be,
  *              specifying the format (fname lname);
  * main.o2
- * 		        Takes the user's input and assigns the student's name 
- *              through KUStudent's set_name method;
+ * 		Takes the user's input and assigns the student's name through
+ *              KUStudent's set_name method;
  * main.03
- * 		        Asks the user what student's KUID and dpt should be,
- *              specifying the format (KUID dpt);
+ * 		Asks the user what student's KUID and dpt should be, specifying
+ *              the format (KUID dpt);
  * main.04
- *              Takes the user's input and assigns the student's KUInfo 
- *              through KUStudent's set_kuinfo method;
+ *              Takes the user's input and assigns the student's KUInfo through
+ *              KUStudent's set_kuinfo method;
  */
